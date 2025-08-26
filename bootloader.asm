@@ -113,7 +113,6 @@ GDT_DESCRIPTOR:
 CODE_SELECTOR equ GDT_CODE - GDT_START;
 DATA_SELECTOR equ GDT_DATA - GDT_START;
 
-
 ; Data To be Here
 msg db "MiniDOS Bootloader v1.0",13,10,0
 msg_init db "Initializing system...",13,10,0

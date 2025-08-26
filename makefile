@@ -3,7 +3,6 @@ CC = x86_64-elf-gcc
 LD = x86_64-elf-ld
 QEMU = qemu-system-i386
 
-
 BOOT_SRC = bootloader.asm
 ENTRY = kernel_entry.asm
 KERNEL = kernel.c 

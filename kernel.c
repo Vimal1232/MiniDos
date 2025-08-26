@@ -32,7 +32,6 @@ uint16_t entry(unsigned char uc , uint8_t color){
 }
 
 
-
 void Terminal_Intialize(){
     terminal_row = 0;
     terminal_columns = 0;
